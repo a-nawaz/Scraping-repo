@@ -25,7 +25,6 @@ def scrapper():
 				soup = BeautifulSoup(response.text, "html.parser")
 				my_born_date = soup.select(".author-born-date")[0].get_text()
 				my_born_location = soup.select(".author-born-location")[0].get_text()
-				print(my_author)
 				data_scrapper.writerow({
 					"quote": my_quote,
 					"author": my_author,
