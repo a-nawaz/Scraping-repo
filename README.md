@@ -1,5 +1,5 @@
 # Scraping
 
-## Scraping Quotes and relevant information from website
+## Scraping Quotes and relevant information from website "http://quotes.toscrape.com"
 
-This program will scrape all the quotes, author name, etc and put it in a .csv file
+This program will scrape all the quotes, author name, and other informations and put it in a .csv file
